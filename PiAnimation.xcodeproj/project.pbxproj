@@ -10,9 +10,9 @@
 		5F36347323527D270056F80E /* PiAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F36346923527D270056F80E /* PiAnimation.framework */; };
 		5F36347823527D270056F80E /* PiAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F36347723527D270056F80E /* PiAnimationTests.swift */; };
 		5F36347A23527D270056F80E /* PiAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F36346C23527D270056F80E /* PiAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5E7B072368E82E006807C2 /* PiAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5E7B092368E82E006807C2 /* PiAnimationViewController.xib */; };
 		5FE22D2A23532497005FDA8E /* PiAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D2923532497005FDA8E /* PiAnimationViewController.swift */; };
 		5FE22D3723532588005FDA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D3623532588005FDA8E /* Assets.xcassets */; };
-		5FE22D71235341FE005FDA8E /* PiAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D70235341FE005FDA8E /* PiAnimationViewController.xib */; };
 		5FE22D79235343FF005FDA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D78235343FF005FDA8E /* AppDelegate.swift */; };
 		5FE22D7D235343FF005FDA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D7C235343FF005FDA8E /* ViewController.swift */; };
 		5FE22D8223534400005FDA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D8123534400005FDA8E /* Assets.xcassets */; };
@@ -37,6 +37,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5F5E7B012368E63A006807C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5F36346923527D270056F80E /* PiAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PiAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F36346C23527D270056F80E /* PiAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiAnimation.h; sourceTree = "<group>"; };
@@ -44,9 +57,9 @@
 		5F36347223527D270056F80E /* PiAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F36347723527D270056F80E /* PiAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiAnimationTests.swift; sourceTree = "<group>"; };
 		5F36347923527D270056F80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5E7B082368E82E006807C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PiAnimationViewController.xib; sourceTree = "<group>"; };
 		5FE22D2923532497005FDA8E /* PiAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiAnimationViewController.swift; sourceTree = "<group>"; };
 		5FE22D3623532588005FDA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5FE22D70235341FE005FDA8E /* PiAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PiAnimationViewController.xib; sourceTree = "<group>"; };
 		5FE22D76235343FF005FDA8E /* PiAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE22D78235343FF005FDA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE22D7C235343FF005FDA8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +131,7 @@
 			children = (
 				5F36346C23527D270056F80E /* PiAnimation.h */,
 				5FE22D2923532497005FDA8E /* PiAnimationViewController.swift */,
-				5FE22D70235341FE005FDA8E /* PiAnimationViewController.xib */,
+				5F5E7B092368E82E006807C2 /* PiAnimationViewController.xib */,
 				5FE22D3623532588005FDA8E /* Assets.xcassets */,
 				5F36346D23527D270056F80E /* Info.plist */,
 			);
@@ -177,12 +190,15 @@
 				5F36346523527D270056F80E /* Sources */,
 				5F36346623527D270056F80E /* Frameworks */,
 				5F36346723527D270056F80E /* Resources */,
+				5F5E7B012368E63A006807C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PiAnimation;
+			packageProductDependencies = (
+			);
 			productName = PiAnimation;
 			productReference = 5F36346923527D270056F80E /* PiAnimation.framework */;
 			productType = "com.apple.product-type.framework";
@@ -275,6 +291,8 @@
 				Base,
 			);
 			mainGroup = 5F36345F23527D270056F80E;
+			packageReferences = (
+			);
 			productRefGroup = 5F36346A23527D270056F80E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -292,7 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE22D71235341FE005FDA8E /* PiAnimationViewController.xib in Resources */,
+				5F5E7B072368E82E006807C2 /* PiAnimationViewController.xib in Resources */,
 				5FE22D3723532588005FDA8E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +390,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5F5E7B092368E82E006807C2 /* PiAnimationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5E7B082368E82E006807C2 /* Base */,
+			);
+			name = PiAnimationViewController.xib;
+			sourceTree = "<group>";
+		};
 		5FE22D8323534400005FDA8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

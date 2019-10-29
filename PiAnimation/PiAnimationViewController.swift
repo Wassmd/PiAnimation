@@ -13,7 +13,7 @@ public class PiAnimationViewController: UIViewController {
     @IBOutlet weak var fan: UIImageView!
 
     public init() {
-        super.init(nibName: "PiAnimationViewController", bundle: Bundle(for: PiAnimationViewController.self))
+        super.init(nibName: "PiAnimationViewController", bundle: Bundle(for: type(of: self)))
     }
     
     public required init?(coder: NSCoder) {
