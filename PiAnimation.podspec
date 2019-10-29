@@ -53,7 +53,6 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Wasim" => "wassmd@gmail.com" }
   # Or just: spec.author    = "Wasim"
-  # spec.authors            = { "Wasim" => "mohammed.wasimuddin@grandcentrix.net" }
   # spec.social_media_url   = "https://twitter.com/Wasim"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "PiAnimation/Assets/*"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
