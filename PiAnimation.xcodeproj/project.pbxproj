@@ -7,20 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F07AABA236AD27700B28FFD /* PiAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5E7B092368E82E006807C2 /* PiAnimationViewController.xib */; };
+		5F25E178236B440200D1C682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D3623532588005FDA8E /* Assets.xcassets */; };
+		5F25E179236B442700D1C682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D8123534400005FDA8E /* Assets.xcassets */; };
 		5F36347323527D270056F80E /* PiAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F36346923527D270056F80E /* PiAnimation.framework */; };
 		5F36347823527D270056F80E /* PiAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F36347723527D270056F80E /* PiAnimationTests.swift */; };
 		5F36347A23527D270056F80E /* PiAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F36346C23527D270056F80E /* PiAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F5E7B072368E82E006807C2 /* PiAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5E7B092368E82E006807C2 /* PiAnimationViewController.xib */; };
 		5FE22D2A23532497005FDA8E /* PiAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D2923532497005FDA8E /* PiAnimationViewController.swift */; };
-		5FE22D3723532588005FDA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D3623532588005FDA8E /* Assets.xcassets */; };
 		5FE22D79235343FF005FDA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D78235343FF005FDA8E /* AppDelegate.swift */; };
 		5FE22D7D235343FF005FDA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D7C235343FF005FDA8E /* ViewController.swift */; };
-		5FE22D8223534400005FDA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D8123534400005FDA8E /* Assets.xcassets */; };
 		5FE22D8523534400005FDA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE22D8323534400005FDA8E /* LaunchScreen.storyboard */; };
 		5FE22D9023534400005FDA8E /* PiAnimationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D8F23534400005FDA8E /* PiAnimationExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F25E17A236B443000D1C682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F36346023527D270056F80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F36346823527D270056F80E;
+			remoteInfo = PiAnimation;
+		};
 		5F36347423527D270056F80E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F36346023527D270056F80E /* Project object */;
@@ -232,6 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F25E17B236B443000D1C682 /* PBXTargetDependency */,
 			);
 			name = PiAnimationExample;
 			productName = PiAnimationExample;
@@ -310,8 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5E7B072368E82E006807C2 /* PiAnimationViewController.xib in Resources */,
-				5FE22D3723532588005FDA8E /* Assets.xcassets in Resources */,
+				5F25E178236B440200D1C682 /* Assets.xcassets in Resources */,
+				5F07AABA236AD27700B28FFD /* PiAnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +334,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F25E179236B442700D1C682 /* Assets.xcassets in Resources */,
 				5FE22D8523534400005FDA8E /* LaunchScreen.storyboard in Resources */,
-				5FE22D8223534400005FDA8E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +385,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5F25E17B236B443000D1C682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F36346823527D270056F80E /* PiAnimation */;
+			targetProxy = 5F25E17A236B443000D1C682 /* PBXContainerItemProxy */;
+		};
 		5F36347523527D270056F80E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5F36346823527D270056F80E /* PiAnimation */;
