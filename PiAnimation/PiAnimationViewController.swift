@@ -1,7 +1,7 @@
 import UIKit
 
 public class PiAnimationViewController: UIViewController {
-    private lazy var fan = UIImageView(image: #imageLiteral(resourceName: "fan-icon"))
+    private lazy var fan = UIImageView(image: UIImage(named: "fan-icon", in: Bundle(for: type(of: self)), compatibleWith: nil))
     private lazy var switchButton: UISwitch = {
         let onOff = UISwitch(frame: .zero)
         onOff.addTarget(self, action: #selector(startAnimation), for: .valueChanged)
